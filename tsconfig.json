@@ -1,0 +1,21 @@
+{
+  "include": [ "src/**/*", "tests/**/*" ],
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "inlineSources": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "module": "ESNext",
+    "target": "esnext",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "lib": [
+      "dom",
+      "esnext"
+    ]
+  }
+}
